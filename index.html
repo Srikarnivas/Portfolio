@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- --------- UNICONS ---------- -->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    
+        <!-- --------- CSS ---------- -->
+        <link rel="stylesheet" href="css/style.css">
+    
+        <!-- --------- FAVICON ---------- -->
+        <link rel="shortcut icon" href="images/circled-user-male-icon.png" type="image/x-icon">
+    
+        <title>Portfolio | Srikar Nivas</title>
+    </head>
+    <body>
+       <div class="container">
+        <!-- --------------- HEADER --------------- -->
+          <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Yerra</p>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#education" class="nav-link">Education</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#location" class="nav-link">Location</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="btn" onclick="downloadResume()" >Download CV <i class="uil uil-file-alt"></i></button>
+            </div>
+            </div>            
+          </nav>
+    
+    
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+           <!-- -------------- FEATURED BOX ---------------- -->
+           <section class="featured-box" id="home">
+              <div class="featured-text">
+                <div class="featured-text-card">
+                    <span>Srikar Nivas Reddy</span>
+                </div>
+                <div class="featured-name">
+                    <p>I'm <span class="typedText"></span></p>
+                </div>
+                <div class="featured-text-info">
+                    <p>Aspiring student diving into the world of web development with user-friendly websites and data science.
+                    </p>
+                </div>
+                <div class="featured-text-btn">
+                    <button class="btn blue-btn" onclick="navigateTo('#contact')">Hire Me</button>
+                    <button class="btn" onclick="downloadResume()">Download CV <i class="uil uil-file-alt"></i></button>
+                </div>
+                <div class="footer-social-icons">
+                    <div class="icon"><i class="uil uil-instagram" onclick="navigateTo('https://www.instagram.com/srikarnivasyerra24?igsh=a2hobjhlanVqbTQz')"></i></div>
+                    <div class="icon"><i class="uil uil-linkedin-alt" onclick="navigateTo('https://www.linkedin.com/in/srikar-nivas-reddy-yerra-43a10b293')"></i></div>
+                    <div class="icon"><i class="uil uil-github-alt" onclick="navigateTo('https://github.com/Srikarnivas')"></i></div>
+                    <div class="icon"><i class="uil uil-brain" onclick="navigateTo('https://www.hackerrank.com/profile/srikarnivas_62')"></i></div>
+                </div>
+              </div>
+              <div class="featured-image">
+                <div class="image">
+                    <img src="images/photo2.jpg" alt="avatar">
+                </div>
+              </div>
+              <div class="scroll-icon-box">
+                <a href="#about" class="scroll-btn">
+                    <i class="uil uil-mouse-alt"></i>
+                    <p>Scroll Down</p>
+                </a>
+              </div>
+    
+           </section>
+           <!-- -------------- ABOUT BOX ---------------- -->
+           <section class="section" id="about">
+              <div class="top-header">
+                <h1>About Me</h1>
+              </div>
+              <div class="row">
+                <div class="col">
+                    <div class="about-info">
+                        <h3>My introduction</h3>
+                        <p>Passionate learner with knowledge in HTML, CSS, JavaScript, PHP, Python, Java, SQL, and C.I also explore data visualization, machine learning, data science, and algorithms.I'm eager to apply my skills to create engaging and interactive experiences.
+                        </p>
+                        <div class="about-btn">
+                            <button class="btn" onclick="downloadResume()">Download CV <i class="uil uil-import"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Frontend</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Bootstrap</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Backend</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>PHP</span>
+                            <span>Python</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Database</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>MySQL</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Other</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>Data Visualization</span>
+                            <span>Data Science</span>
+                            <span>Machine Learning</span>
+                        </div>
+                    </div>
+                </div>
+              </div>
+           </section>
+
+
+<section id="education">
+           <div class="container section edu-class" style="border: 2px solid white; padding:25px; border-radius:1%; box-sizing: border-box; box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.25);" >
+			<div class="row animate-box fadeInUp animated-fast">
+				<div class="col-md-8 col-md-offset-2" style=" display: flex;
+                align-items: center;
+                gap: 10px;
+                margin: 20px 0; justify-content: center; width: 100%;">
+                    <i class="uil uil-graduation-cap" style="font-size: 30px; color: var(--text-color-second);"></i>
+					<h2 style="font-size: 30px;">Education</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0">
+					<ul class="timeline">
+						<li class="timeline-inverted animate-box fadeInUp animated-fast">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title"> Bachelor of Technology (B.Tech)</h3>
+									<span class="company"> Vardhaman College of Engineering (2020 - present)</span>
+								</div>
+								<div class="timeline-body">
+									<p>Department of Artificial Intelligence and Data science <b>CGPA:</b>9.77 <b>located:</b> Shamshabad, Hyderabad, 501218.</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box fadeInUp animated-fast">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title"> Senior Secondary (XII), Science</h3>
+									<span class="company"> SR Edu Center (2020 - 2022)</span>
+								</div>
+								<div class="timeline-body">
+									<p> (TELANGANA STATE BOARD OF INTERMEDIATE
+                                        EDUCATION board) <b>Percentage:</b> 97% <b>located:</b>  Waddapelly X Road, Hanamakonda,
+                                        Warangal Urban, Telangana</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted fadeInUp animated-fast">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Secondary (X)</h3>
+									<span class="company"> Shine High School (2016 - 2020)</span>
+								</div>
+								<div class="timeline-body">
+									<p>(BOARD OF SECONDARY EDUCATION TELANGANA STATE
+                                        board) <b>CGPA</b>: 10.00/10 <b>located:</b> Nakkalagutta, Hanamakonda,
+                                        Warangal Urban, Telangana</p>
+								</div>
+							</div>
+						</li>
+			    	</ul>
+				</div>
+			</div>
+		</div>
+    </section>
+    
+          <!-- -------------- PROJECT BOX ---------------- -->
+<section class="section" id="projects">
+    <div class="top-header">
+        <h1>Projects</h1>
+    </div>
+    <div class="project-container">
+        <div class="project-box">
+            <i class="uil uil-brain"></i>
+            <h3>Machine Learning</h3>
+            <label>5+ ML Projects</label>
+        </div>
+        <div class="project-box">
+            <i class="uil uil-web-grid"></i>
+            <h3>Web Development</h3>
+            <label>10+ Web Projects</label>
+        </div>
+        <div class="project-box">
+            <i class="uil uil-github"></i>
+            <h3>GitHub Repos</h3>
+            <label>10+ Repositories</label>
+        </div>
+    </div>
+</section>
+
+    
+
+           <!-- -------------- CONTACT BOX ---------------- -->
+
+           <section class="section" id="contact">
+            <div class="top-header">
+                <h1>Contact Me</h1>
+                <span>If you have any questions or want to collaborate, feel free to reach out!</span>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="contact-info">
+                        <h2>Reach Me At <i class="uil uil-corner-right-down"></i></h2>
+                        <p><i class="uil uil-envelope"></i> Personal Email: srikarnivas.24@gmail.com</p>
+                        <div class="student-email">
+                            <p><i class="uil uil-envelope-alt"></i> Student Email:</p>
+                            <p class="email">yerrasrikarnivasreddy22aids@student.vardhaman.org</p>
+                        </div>
+                        <p><i class="uil uil-phone"></i> Tel: +91 76720 93015</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-control">
+                        <div class="form-inputs">
+                            <input type="text" class="input-field" placeholder="Name">
+                            <input type="email" class="input-field" placeholder="Email">
+                        </div>
+                        <div class="text-area">
+                            <textarea placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-button">
+                            <button class="btn">Send <i class="uil uil-message"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+    
+        </main>
+        <div class="section top-footer location-box" style="width: 100%; display: flex; justify-content: center; margin-bottom: 25px;" id="location">
+            <i class="uil uil-location-point"></i>
+            <p>Location</p>
+        </div>
+        <div class="container" style="display: flex; justify-content: center; width: 100%;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d30468.629813005726!2d78.30455584999999!3d17.33586355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sin!4v1716365516108!5m2!1sen!2sin" width="600" height="450" style="border: 10px solid #fb5607; border-radius: 5%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+       
+        <!--------------------------Footer----------------------------->
+        <footer>
+            <div class="top-footer">
+                <p>Srikar Nivas</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon"><i class="uil uil-instagram" onclick="navigateTo('https://www.instagram.com/srikarnivasyerra24?igsh=a2hobjhlanVqbTQz')"></i></div>
+                <div class="icon"><i class="uil uil-linkedin-alt" onclick="navigateTo('https://www.linkedin.com/in/srikar-nivas-reddy-yerra-43a10b293')"></i></div>
+                <div class="icon"><i class="uil uil-github-alt" onclick="navigateTo('https://github.com/Srikarnivas')"></i></div>
+                <div class="icon"><i class="uil uil-brain" onclick="navigateTo('https://www.hackerrank.com/profile/srikarnivas_62')"></i></div>
+            </div>
+            
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Srikar Nivas</a> - All rights reserved</p>
+            </div>
+        </footer>
+    <!--
+        </div>
+        <div class="icon"><a href="https://www.instagram.com/srikarnivasyerra24?igsh=a2hobjhlanVqbTQz" target="_blank"><i class="uil uil-instagram"></i></a></div>
+        <div class="icon"><a href="https://www.linkedin.com/in/srikar-nivas-reddy-yerra-43a10b293" target="_blank"><i class="uil uil-linkedin-alt"></i></a></div>
+        <div class="icon"><a href="https://github.com/Srikarnivas" target="_blank"><i class="uil uil-github-alt"></i></a></div>
+        <div class="icon"><a href="https://www.hackerrank.com/profile/srikarnivas_62" target="_blank"><i class="uil uil-brain"></i></a></div>
+    -->
+    
+        <script>
+            function navigateTo(url) {
+                window.open(url, '_blank');
+            }
+
+            function downloadResume() {
+                const link = document.createElement('a');
+                link.href = './Resume.pdf';
+                link.download = 'Resume.pdf';
+                link.click();
+            }
+        </script>
+            
+    
+        <!-- ----- TYPING JS Link ----- -->
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    
+           <!-- ----- SCROLL REVEAL JS Link----- -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+    
+        <!-- ----- MAIN JS ----- -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
