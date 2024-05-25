@@ -62,7 +62,7 @@ To view the portfolio website, simply clone this repository and open the `index.
 ## Screenshots
 
 ![Home Section](Screenshots/home.png)
-![About Section](Screeshots/aboutme.png)
+![About Section](Screenshots/aboutme.png)
 ![Education Section](Screeshots/education.png)
 ![Projects Section](Screeshots/projects.png)
 ![Contact Section](Screeshots/contactme.png)
