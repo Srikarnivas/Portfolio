@@ -70,6 +70,9 @@ html{
     flex-direction: column;
     align-items: center;
 }
+favicon {
+    border-radius: 50%;
+}
 
 .email {
     word-break: break-word;
